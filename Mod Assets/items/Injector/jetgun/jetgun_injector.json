@@ -1,0 +1,32 @@
+{
+	"credit": "Made with Blockbench by CookieG. All tight reserved",
+	"parent": "builtin/entity",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 6.25, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [-9, 8, 8]
+		},
+		"firstperson_lefthand": {
+			"translation": [-9, 8, 8]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [-6.75, 3, 0]
+		},
+		"gui": {
+			"rotation": [15, 75, 0],
+			"translation": [0.5, 8.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0.25, 11.75, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

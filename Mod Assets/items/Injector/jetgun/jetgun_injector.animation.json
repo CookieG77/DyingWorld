@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jetgun.inject_self": {
+			"loop": true
+		},
+		"animation.jetgun.idle_1st_person": {
+			"loop": true,
+			"bones": {
+				"injector": {
+					"position": {
+						"vector": [-6, 0, -8]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": [90, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 4]
+					}
+				},
+				"left_arm": {
+					"position": {
+						"vector": [0, 0, 24]
+					}
+				}
+			}
+		},
+		"animation.jetgun.idle_3rd_person": {
+			"loop": true,
+			"bones": {
+				"injector": {
+					"position": {
+						"vector": [0, -2, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,1790 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.BioMarker.idle": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.idle_slim": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim1": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim2": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim3": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim4": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim5": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim6": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim7": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n7": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n18": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim8": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n7": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n18": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim9": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n7": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n18": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim10": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n7": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n18": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim11": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n7": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n18": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel_slim12": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"red_leds": {
+					"position": {
+						"vector": [1.2, 0, 0]
+					}
+				},
+				"green_leds": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"back": {
+					"position": {
+						"vector": [0.5, 0, 0]
+					},
+					"scale": {
+						"vector": [0.75, 1, 1]
+					}
+				},
+				"front": {
+					"position": {
+						"vector": [1, 0, 0]
+					}
+				},
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n7": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n18": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel1": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel2": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel3": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel4": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel5": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel6": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"led_n1": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"red_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n24": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n2": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n23": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n3": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n22": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n4": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n21": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n5": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n20": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n6": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n19": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel7": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"green_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel8": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"green_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel9": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"green_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel10": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"green_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel11": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"green_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [-0.2, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.BioMarker.infectionlevel12": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"green_leds": {
+					"position": {
+						"vector": [0.2, 0, 0]
+					}
+				},
+				"led_n12": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n11": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n10": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n9": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n8": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n13": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n14": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n15": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n16": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"led_n17": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
